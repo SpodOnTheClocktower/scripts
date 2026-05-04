@@ -1,0 +1,159 @@
+[
+    {
+        "id": "_meta",
+        "author": "Cute Mage",
+        "name": "Bullet Hell",
+        "firstNight": [
+            "dusk",
+            "philosopher",
+            "minioninfo",
+            "demoninfo",
+            "xaan",
+            "witch",
+            "empath",
+            "seamstress",
+            "u4jdl",
+            "qcjbg",
+            "neaot",
+            "yc4to",
+            "balloonist",
+            "nightwatchman",
+            "dawn"
+        ],
+        "otherNight": [
+            "dusk",
+            "jikininki",
+            "philosopher",
+            "xaan",
+            "witch",
+            "scarletwoman",
+            "imp",
+            "fanggu",
+            "nodashii",
+            "vigormortis",
+            "sweetheart",
+            "ravenkeeper",
+            "empath",
+            "towncrier",
+            "oracle",
+            "qcjbg",
+            "seamstress",
+            "u4jdl",
+            "neaot",
+            "yc4to",
+            "balloonist",
+            "nightwatchman",
+            "dawn"
+        ]
+    },
+    "empath",
+    "balloonist",
+    "towncrier",
+    "oracle",
+    {
+        "id": "u4jdl",
+        "name": "Seneschal",
+        "image": [
+            "https://user-images.klutzbanana.com/yb11zkyiyxot8x3twgt24i2p.png",
+            "https://user-images.klutzbanana.com/aj39rw7lxps27n872sdku26a.png"
+        ],
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose to learn a living good player.",
+        "flavor": "Of course I snoop through the guests' stuff! How else is the head of the house going to know what's going on?",
+        "firstNight": 9,
+        "otherNight": 18,
+        "firstNightReminder": "The Seneschal might nod their head. If they do, point to a player.",
+        "otherNightReminder": "The Seneschal might nod their head. If they do, point to a player.",
+        "reminders": [
+            "No Ability"
+        ]
+    },
+    {
+        "id": "qcjbg",
+        "name": "Armorer",
+        "image": [
+            "https://user-images.klutzbanana.com/ajeaf0bmbp82uzbc58s1tfjj.png",
+            "https://user-images.klutzbanana.com/dtj53cz5y2h383jeffpakcsj.png"
+        ],
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose to learn 2 players that aren't the Demon.",
+        "flavor": "A good suit of armor tells everyone who is inside. If you're a hero, it should be polished and clean. If you're a villain, it should be dark and spiky. Fashion doesn't lie!",
+        "firstNight": 10,
+        "otherNight": 16,
+        "firstNightReminder": "The Armorer might nod their head. If they do, point to 2 players.",
+        "otherNightReminder": "The Armorer might nod their head. If they do, point to 2 players.",
+        "reminders": [
+            "No Ability"
+        ]
+    },
+    "nightwatchman",
+    {
+        "id": "neaot",
+        "name": "Bookbinder",
+        "image": [
+            "https://user-images.klutzbanana.com/z9yowimqb2e9msmjmhli7jau.png",
+            "https://user-images.klutzbanana.com/ft6nhacxb025qbzerke6djh7.png"
+        ],
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose to learn how many living outsiders there are.",
+        "flavor": "When you make books, you get to know all of the people who only leave their house to buy more books.",
+        "firstNight": 11,
+        "otherNight": 19,
+        "firstNightReminder": "The Bookbinder might nod their head. Show them a number.",
+        "otherNightReminder": "The Bookbinder might nod their head. Show them a number.",
+        "reminders": [
+            "No Ability"
+        ]
+    },
+    {
+        "id": "yc4to",
+        "name": "Private Eye",
+        "image": [
+            "https://user-images.klutzbanana.com/dmwmr3m4se0t87xk12r15rjy.png",
+            "https://user-images.klutzbanana.com/ucc2v1al4x1a3ksc5t4mn0wh.png"
+        ],
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose to learn the number of steps to the closest living Minion.",
+        "flavor": "Footsteps. It's always the footsteps.",
+        "firstNight": 12,
+        "otherNight": 20,
+        "firstNightReminder": "The Private Eye might nod their head. If they do, show them a number,",
+        "otherNightReminder": "The Private Eye might nod their head. If they do, show them a number,",
+        "reminders": [
+            "No Ability"
+        ]
+    },
+    "seamstress",
+    "philosopher",
+    "fisherman",
+    "ravenkeeper",
+    "recluse",
+    "sweetheart",
+    "klutz",
+    "puzzlemaster",
+    "witch",
+    {
+        "id": "jikininki",
+        "name": "Jikininki",
+        "image": [
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/Bullet_Hell/tokens/jikininki_default.png",
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/Bullet_Hell/tokens/jikininki_alternate.png"
+        ],
+        "team": "minion",
+        "ability": "If you were the last player to nominate today, all Townsfolk are poisoned until dusk, even if you are dead.",
+        "flavor": "I used to wear a stupid ascot until a sandwich man complimented me.",
+        "firstNight": 0,
+        "otherNight": 2,
+        "otherNightReminder": "If the Jikininki was the last player to nominate today, all Townsfolk are poisoned. :reminder:",
+        "reminders": [
+            "Townsfolk Poisoned"
+        ]
+    },
+    "scarletwoman",
+    "xaan",
+    "nodashii",
+    "imp",
+    "vigormortis",
+    "fanggu",
+    "bootlegger"
+]
