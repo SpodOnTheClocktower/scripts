@@ -1,0 +1,132 @@
+[
+    {
+        "id": "_meta",
+        "name": "The New Switcheroo",
+        "author": "Kinky Joe & Nolan Kryptonite",
+        "bootlegger": [
+            "A Puzzledrunk Demon keeps their ability."
+        ],
+        "firstNight": [
+            "dusk",
+            "minioninfo",
+            "demoninfo",
+            "poisoner",
+            "snakecharmer",
+            "rakshasa",
+            "cerenovus",
+            "pukka",
+            "washerwoman",
+            "empath",
+            "fortuneteller",
+            "dreamer",
+            "balloonist",
+            "towncrier",
+            "oracle",
+            "monk",
+            "fisherman",
+            "sage",
+            "mutant",
+            "pithag",
+            "imp",
+            "fanggu",
+            "bootlegger",
+            "dawn"
+        ],
+        "otherNight": [
+            "dusk",
+            "jikininki",
+            "poisoner",
+            "snakecharmer",
+            "monk",
+            "cerenovus",
+            "pithag",
+            "imp",
+            "rakshasa",
+            "pukka",
+            "fanggu",
+            "barber",
+            "sage",
+            "empath",
+            "fortuneteller",
+            "dreamer",
+            "towncrier",
+            "oracle",
+            "balloonist",
+            "fisherman",
+            "mutant",
+            "bootlegger",
+            "dawn"
+        ]
+    },
+    "washerwoman",
+    "empath",
+    "balloonist",
+    "snakecharmer",
+    "dreamer",
+    "fortuneteller",
+    "towncrier",
+    "oracle",
+    "monk",
+    "fisherman",
+    {
+        "id": "enlightenedonefestivaloflanterns",
+        "name": "Enlightened One",
+        "team": "townsfolk",
+        "ability": "You think you are an Outsider. If affected by an evil player\u2019s ability, you first become a not-in-play Townsfolk.",
+        "remindersGlobal": [
+            "Is the Enlightened One"
+        ],
+        "setup": true,
+        "image": [
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/The_New_Switcheroo/tokens/enlightenedonefestivaloflanterns_default.png",
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/The_New_Switcheroo/tokens/enlightenedonefestivaloflanterns_alternate.png"
+        ]
+    },
+    "cannibal",
+    "sage",
+    "golem",
+    "barber",
+    "mutant",
+    "puzzlemaster",
+    "poisoner",
+    "cerenovus",
+    "pithag",
+    {
+        "id": "jikininki",
+        "name": "Jikininki",
+        "team": "minion",
+        "ability": "If you were the last player to nominate today, all Townsfolk are poisoned tonight & tomorrow, even if you are dead.",
+        "otherNightReminder": "If the Jikininki was the last player to nominate today, all Townsfolk are poisoned. :reminder:",
+        "reminders": [
+            "Townsfolk Poisoned"
+        ],
+        "otherNight": 2,
+        "image": [
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/The_New_Switcheroo/tokens/jikininki_default.png",
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/The_New_Switcheroo/tokens/jikininki_alternate.png"
+        ]
+    },
+    "pukka",
+    "imp",
+    "fanggu",
+    {
+        "id": "rakshasa",
+        "name": "Rakshasa",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Once per game, choose a Minion character: gain that ability until dusk & use it immediately.",
+        "firstNightReminder": "The Rakshasa may choose a Minion character. Run the chosen ability immediately. :reminder: :reminder:",
+        "otherNightReminder": "The Rakshasa chooses a player. :reminder: The Rakshasa may choose a Minion character. Run the chosen ability immediately. :reminder: :reminder:",
+        "reminders": [
+            "Dead",
+            "Once",
+            "Has Ability"
+        ],
+        "firstNight": 6,
+        "otherNight": 9,
+        "image": [
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/The_New_Switcheroo/tokens/rakshasa_default.png",
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/The_New_Switcheroo/tokens/rakshasa_alternate.png"
+        ]
+    },
+    "bootlegger"
+]
