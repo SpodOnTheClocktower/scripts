@@ -1,0 +1,148 @@
+[
+    {
+        "id": "_meta",
+        "name": "No? Hear me out...",
+        "author": " Grattttt",
+        "bootlegger": [
+            "This script features homebrew characters byAlexS & Patters (\u2020)"
+        ],
+        "firstNight": [
+            "dusk",
+            "minioninfo",
+            "demoninfo",
+            "king",
+            "marionette",
+            "poisoner",
+            "fearmonger",
+            "emissarythebazaar",
+            "steward",
+            "balloonist",
+            "nightwatchman",
+            "dawn"
+        ],
+        "otherNight": [
+            "dusk",
+            "poisoner",
+            "fearmonger",
+            "scarletwoman",
+            "princess",
+            "alhadikhia",
+            "gargoylethebazaar",
+            "hatter",
+            "sweetheart",
+            "bellringerthebazaar",
+            "banshee",
+            "professor",
+            "choirboy",
+            "oracle",
+            "balloonist",
+            "king",
+            "nightwatchman",
+            "dawn"
+        ]
+    },
+    "steward",
+    {
+        "id": "emissarythebazaar",
+        "name": "Emissary \u2020",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 of the Demon\u2019s bluffs & an in-play good character.",
+        "firstNightReminder": "Show an in-play good character token and 1 of the Demon bluffs.",
+        "firstNight": 8,
+        "image": [
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/No?_Hear_me_out.../tokens/emissarythebazaar_default.png",
+            "https://thebazaar.wiki/emissary/artwork/evil"
+        ],
+        "jinxes": [
+            {
+                "id": "lilmonsta",
+                "reason": "The Emissary receives an out-of-play good character instead of a Demon bluff."
+            }
+        ],
+        "flavor": "There is a corpse on the road. I could barely recognise them. No papers, no clothing, no face\u2026 I fear the worst."
+    },
+    "balloonist",
+    "king",
+    "oracle",
+    "nightwatchman",
+    "professor",
+    "princess",
+    "minstrel",
+    "choirboy",
+    "banshee",
+    {
+        "id": "bellringerthebazaar",
+        "name": "Bell-Ringer \u2020",
+        "team": "townsfolk",
+        "ability": "If the number of living evils outnumbers the number of living goods, you are resurrected.",
+        "otherNightReminder": "If the living evil players outnumber the living good players, the Bell-Ringer is resurrected. :reminder:",
+        "reminders": [
+            "Alive"
+        ],
+        "otherNight": 10,
+        "image": [
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/No?_Hear_me_out.../tokens/bellringerthebazaar_default.png",
+            "https://thebazaar.wiki/bellringer/artwork/evil"
+        ],
+        "flavor": "One if by land\u2026 thirteen by midnight\u2026 though it cost ye yer lives, the town must know! Pull in the ropes lads and hang on the bell!"
+    },
+    "virgin",
+    {
+        "id": "bandwagonthebazaar",
+        "name": "Bandwagon \u2020",
+        "team": "outsider",
+        "ability": "Once per game, during the day, publicly choose to become the alignment the Storyteller believes is winning.",
+        "reminders": [
+            "No Ability"
+        ],
+        "image": [
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/No?_Hear_me_out.../tokens/bandwagonthebazaar_default.png",
+            "https://thebazaar.wiki/bandwagon/artwork/evil"
+        ],
+        "flavor": "Oh, I was always a fan of\u2026 What was it again? Demon worship?"
+    },
+    "sweetheart",
+    "hatter",
+    {
+        "id": "worrywartthebazaar",
+        "name": "Worrywart \u2020",
+        "team": "outsider",
+        "ability": "Public and private announcements might be false, even if dead.",
+        "image": [
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/No?_Hear_me_out.../tokens/worrywartthebazaar_default.png",
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/No?_Hear_me_out.../tokens/worrywartthebazaar_alternate.png"
+        ],
+        "flavor": "\u2026Yes. I have read \u2018The Boy Who Cried Wolf\u2019. Why do you ask?"
+    },
+    "poisoner",
+    "fearmonger",
+    "marionette",
+    {
+        "id": "gargoylethebazaar",
+        "name": "Gargoyle \u2020",
+        "team": "minion",
+        "ability": "If you died by execution this game, you may choose to die or be resurrected at any time.",
+        "otherNightReminder": "If the Gargoyle has the **HAS ABILITY** reminder token, wake the Gargoyle. Wait for the **THUMBS UP** (to live) or **THUMBS DOWN** (to die) signal. :reminder: Put the Gargoyle to sleep.",
+        "reminders": [
+            "Dead",
+            "Alive",
+            "Has Ability"
+        ],
+        "otherNight": 7,
+        "image": [
+            "https://raw.githubusercontent.com/SpodOnTheClocktower/scripts/main/No?_Hear_me_out.../tokens/gargoylethebazaar_default.png",
+            "https://thebazaar.wiki/gargoyle/artwork/good"
+        ],
+        "jinxes": [
+            {
+                "id": "plaguedoctor",
+                "reason": "If the Plague Doctor dies, a Minion who died by execution gains the Gargoyle ability in addition to their own ability, and learns this."
+            }
+        ],
+        "flavor": "I LIVE AGAIN!"
+    },
+    "scarletwoman",
+    "alhadikhia",
+    "doomsayer",
+    "bootlegger"
+]
